@@ -1,0 +1,166 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="AdminPanel.master.cs" Inherits="AdminPanel" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <style type="text/css">
+        .auto-style17 {
+            width: 1472px;
+            height: 46px;
+        }
+        .tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+        .auto-style26 {
+            width: 100%;
+        }
+        .auto-style27 {
+            width: 544px;
+            text-align: center;
+        }
+        .auto-style29 {
+            text-align: center;
+        }
+        .auto-style30 {
+            width: 490px;
+            text-align: center;
+        }
+        .auto-style33 {
+            width: 94px;
+            text-align: center;
+        }
+        .auto-style42 {
+            width: 114px;
+            text-align: center;
+        }
+        .auto-style43 {
+            width: 98px;
+            text-align: center;
+        }
+        .auto-style44 {
+            width: 155px;
+            text-align: center;
+        }
+        .auto-style45 {
+            width: 48px;
+            text-align: center;
+        }
+        .auto-style49 {
+            text-decoration: none;
+        }
+        .auto-style53 {
+            width: 1471px;
+            height: 69px;
+        }
+        .auto-style54 {
+            width: 102px;
+            text-align: center;
+        }
+    </style>
+
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <img src="united%20title.jpg" class="auto-style53"  /><table class="auto-style17" style="background-color: #0066FF; font-family: Arial; font-size: 12px; font-style: normal;" align="center">
+
+        <tr>
+            <td class="auto-style33">
+                <strong>
+                <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/userfeedback.aspx" ForeColor="White" CssClass="auto-style49">USER FEEDBACK</asp:HyperLink>
+                </strong>
+            </td> 
+            <td class="auto-style42">
+                <strong>
+              <asp:HyperLink ID="HyperLink3" runat="server" ForeColor="White" NavigateUrl="~/adstudmaterial.aspx" CssClass="auto-style49">STUDENT MATERIAL</asp:HyperLink>
+                </strong>
+            </td>
+            <td class="auto-style43">
+                <strong>
+                <asp:HyperLink ID="HyperLink5" runat="server" ForeColor="White" NavigateUrl="~/marks.aspx" CssClass="auto-style49">STUDENT MARKS</asp:HyperLink>
+                </strong>
+            </td>
+            <td class="auto-style44">
+                <strong>
+                <asp:HyperLink ID="HyperLink9" runat="server" ForeColor="White" NavigateUrl="~/masterrecord.aspx" CssClass="auto-style49">STUDENT MASTER RECORD</asp:HyperLink>
+                </strong>
+            </td>
+            <td class="auto-style54">
+                <strong>
+                <asp:HyperLink ID="HyperLink4" runat="server" ForeColor="White" NavigateUrl="~/Noticemanager.aspx" CssClass="auto-style49">NOTICE MANAGER</asp:HyperLink>
+                </strong>
+            </td>
+           
+          <td class="auto-style45">
+                <strong>
+                <asp:HyperLink ID="HyperLink1" runat="server" ForeColor="White" NavigateUrl="~/Home.aspx" CssClass="auto-style49">LOGOUT</asp:HyperLink>
+                </strong>
+            </td>  
+           
+        
+   
+               
+            
+            
+       <%-- </td>--%>
+                &nbsp;</tr>
+    </table>
+    
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+            <p>
+                <br />
+            </p>
+            <p>
+            </p>
+        
+        </asp:ContentPlaceHolder>
+         <br />
+        </p>
+    </asp:ContentPlaceHolder>
+    <table class="auto-style26">
+        <tr>
+            <td class="auto-style27" style="background-color: #3333FF; color: #FFFFFF;"><strong>Address :</strong><br />
+                United English School,<br />
+                Markandi,<br />
+                chiplun,<br />
+                Ratnagiri.</td>
+            <td class="auto-style30" style="background-color: #3333FF; color: #FFFFFF"><strong>Contact :</strong><br />
+                Tel. 02355 888888
+                <br />
+                Mob.9999999999
+                <br />
+            </td>
+            <td class="auto-style29" style="color: #FFFFFF; background-color: #3333FF"><strong>E-Sources:</strong><br />
+                Website: ues.com<br />
+                E-mail :aassdd@gmail.com</td>
+        </tr>
+    </table>
+    </div>
+    </form>
+</body>
+</html>
